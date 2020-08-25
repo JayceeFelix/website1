@@ -1,0 +1,78 @@
+body{
+	font-family: 'Nunito';
+	background: url("../images/bg.png") no-repeat;
+	background-size: 100rem;
+}
+
+#navbar{
+	background-color: white;
+}
+
+#navbar .nav-link{
+	font-size: 20px;
+	color: #910000;
+}
+#navbar .nav-link:hover{
+	font-size: 20px;
+	color: #222E50;
+}
+
+.img-fluid{
+	max-width: 80%;
+	border-radius: 2rem;
+}
+
+.popup{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	padding: 4rem;
+	border: black;
+	background-color: #FF9E9C;
+	transition: .8s;
+	z-index: 10;
+}
+
+.popup.active{
+	transform: translate(-50%, -50%) scale(1);
+}
+
+button{
+	background-color: #FF5E52;
+	color: white;
+	border-radius: 7rem;
+	font-size: 1.1rem;
+	transition: .5s;
+	border: 1rem;
+}
+
+button:hover{
+	background-color: #007991;
+	font: white;
+	border-radius: 7rem;
+	font-size: 1.4rem;
+	border: 2rem;
+}
+
+h3{
+	font-size: 1.2rem;
+}
+
+blockquote{
+	font-family: 'Cinzel Decorative';
+}
+
+#values-section{
+	background-color: #64FFCD;
+}
+
+#values-section img{
+	size: 0.2rem;
+}
+
+#values-section h3{
+	font-size: 2rem;
+}
+
+
